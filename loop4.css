@@ -1,0 +1,55 @@
+body{
+    background: url("loop4.png");
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.parent{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 100px;
+}
+
+button{
+    font-size: 40px;
+    background: url('deadend1.webp');
+    background-size: cover;
+    background-position: center;
+    color: #222222;
+    border-radius: 22px;
+    border: none;
+    height: 60px;
+    width: 170px;
+    transition: transform 0.1s;
+}
+.door{
+    padding-left: 100px;
+}
+
+.child1_2{
+    padding-left: 100px;
+}
+
+.child1_1:hover{
+    transform: translateY(-5px);
+}
+
+.child1_2:hover{
+    transform: translateY(-5px);
+}
+
+.door:hover{
+    transform: translateY(-5px);
+}
+
+
+

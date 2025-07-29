@@ -1,0 +1,27 @@
+body{
+    background: url('winnerpg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.parent{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    display: flex;
+    padding-right: 150px;
+}
+
+img{
+    border-radius: 12px;
+}
+
+img:hover{
+    transform: translateY(-5px);
+}

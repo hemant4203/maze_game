@@ -1,0 +1,38 @@
+body{
+    background: url('indexpg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.parent{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.child{
+    display: flex;
+    padding-bottom: 160px;
+}
+
+button{
+    font-size: 40px;
+    background: url('buttonbg.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(87, 50, 6);
+    border-radius: 22px;
+    border: none;
+    height: 60px;
+    width: 170px;
+   
+    transition: transform 0.1s;
+}
+
+button:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
